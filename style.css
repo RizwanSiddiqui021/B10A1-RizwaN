@@ -126,6 +126,7 @@
     align-items: center;
     gap: 35px;
 }
+
 .web-dev-content1{
     padding: 48px;
     background-image: linear-gradient(to right,#FFFFFFFF,#FFFFFF00);
