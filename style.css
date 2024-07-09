@@ -6,8 +6,6 @@
     font-family: "Azeret Mono", monospace;
 }
 
-/* shared-styles */
-
 /* header-top */
 .header-top{
     width: 1440px;
@@ -80,4 +78,96 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+}
+
+/* web-dev-section-styles */
+.web-dev-section{
+    width: 946px;
+    height: 1435px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+/* web-dev-title-styles */
+.web-dev-title{
+    width: 852px;
+    margin: 80px auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.web-dev-title>h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.web-dev-title>p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* web-dev-contents-styles  */ /*This section made me cry!! :)*/
+
+.web-dev-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.web-dev-content1, .web-dev-content2, .web-dev-content3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+}
+.web-dev-content1{
+    padding: 48px;
+    background-image: linear-gradient(to right,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.web-dev-content2{
+    padding: 48px;
+    background-image: linear-gradient(to left,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.web-dev-content3{
+    padding: 48px;
+    background-image: linear-gradient(to right,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.web-dev-content-texts{
+    Width: 400px;
+    Height: 220px;
+}
+
+.web-dev-content-texts>h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.web-dev-content-texts>p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.web-dev-content-texts>a>button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px;
 }
