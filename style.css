@@ -56,6 +56,10 @@
     height: 582px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-contents>img{
