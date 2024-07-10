@@ -294,6 +294,7 @@
     width: 1140px;
     height: 868px;
     margin: 120px auto;
+    margin-bottom: 0px;
 }
 
 .next-target-title{
@@ -351,4 +352,72 @@
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* support-section-styles */
+
+.support-section{
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    margin: 80px auto;
+    margin-top: 0px;
+    background-color: rgba(7, 2, 17, 0.5);
+    background-blend-mode: overlay;
+    background-image: url('assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-text>h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.support-text>p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.support-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.support-content>textarea{
+    width: 548px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    padding: 14px;  
+}
+
+textarea::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-content>input{
+    width: 120px;
+    height: 58px;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
 }
