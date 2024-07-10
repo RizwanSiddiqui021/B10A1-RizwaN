@@ -32,6 +32,7 @@
     padding: 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+    background-color: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
@@ -55,10 +56,6 @@
     height: 582px;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .hero-contents>img{
@@ -411,6 +408,7 @@
 
 .support-content>textarea{
     width: 548px;
+    background-color: rgb(255, 255, 255)    ;
     border: none;
     border-radius: 8px;
     resize: none;
