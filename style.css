@@ -82,8 +82,8 @@
 
 /* web-dev-section-styles */
 .web-dev-section{
-    width: 946px;
-    height: 1435px;
+    width: 1140px;
+    height: 1400px;
     margin: 0 auto;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.02);
@@ -110,9 +110,12 @@
     font-weight: 400;
 }
 
-/* web-dev-contents-styles  */ /*This section made me cry!! :)*/
+/* web-dev-contents-styles  */
 
 .web-dev-contents{
+    width: 946px;
+    height: 1072px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,4 +174,42 @@
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
     padding: 12px 20px;
+}
+
+/* my-inspiration-section-styles */
+
+.my-inspiration-section{
+    width: 1140px;
+    height: 777px;
+    margin: 80px auto;
+}
+
+.my-inspiration-title{
+    text-align: center;
+}
+
+.my-inspiration-title>h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.my-inspiration-title>p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.my-inspiration-content{
+    width: 1140px;
+    height: 614px;
+    border: 1px	solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.my-inspiration-content>iframe{
+    margin: 32px;
+    border-radius: 16px;
 }
